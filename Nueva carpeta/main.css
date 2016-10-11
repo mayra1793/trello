@@ -1,0 +1,102 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family: Roboto, cursive;
+}
+
+body {
+	background-image: url("../img/fondo2.jpg");
+	background-size: cover;
+	width: 100%;
+	height: 600px;
+	background-repeat: no-repeat;
+}
+
+#contenedor{
+	
+}
+
+#cabezal{
+	background-color: #026AA7;
+	width: auto;
+	height: 60px;
+}
+
+#logo{
+	width: 80px;
+	height: 40px;
+	position: relative;
+	padding-left: 600px;
+	text-align: center;
+	margin: 10px;
+}
+
+h1{
+	color: white;
+	text-align: center;
+}
+
+#entrar {
+	background-color: #0079BF;
+	padding: 10px;
+	border-radius: 7px;
+	color: white;
+	font-size: 15px;
+	display: block;
+	width: 15%;
+	cursor: pointer;
+	font-family: Roboto;
+	margin: 1%;
+}
+
+#entrar:hover {
+	background-color: #006BA9;
+}
+
+#boton{
+	width: 100px;
+    height: 25px;
+	margin-top: 15px;
+	display: inline-block;
+	background-color: #5DB449;
+	color: whitesmoke;
+	cursor: pointer;
+	font-family: sans-serif bold;
+	border-radius: 10px;
+}
+
+#lista {
+	background-color: rgb(227,230,231);
+	padding: 10px;
+	border-style: none;
+	border-color: #aaa;
+    box-shadow: inset 0 1px 8px rgba(0,0,0,.18); 
+	border-radius: 7px;
+	font-size: 15px;
+	width: 85%;
+	cursor: pointer;
+	font-family: cursive;
+	display: inline-block;
+}
+
+#caja {
+	background-color: #E2E4E6;
+	padding: 5px;
+	width: 20%;
+	height: auto;
+	display: inline-block;
+}
+
+.textBold {
+	font-weight: bold;
+}
+
+.areaTexto {
+	height: 30px;
+	display: inline-block;
+	resize: none;
+	width: 237px;
+	border : none;
+	border-radius: 3px;
+	margin-top: 10px;
+}

@@ -1,12 +1,12 @@
 window.addEventListener("load",function(){
-	var span = document.getElementById("span");
-	var boton = document.getElementById("boton");
-	var texto = document.getElementById("texto");
-	var box = document.getElementById("box");
-	var form = document.getElementById("form");
+	var entrar = document.getElementById("entrar");//span
+	var boton = document.getElementById("boton");//button
+	var lista = document.getElementById("lista");//input
+	var caja = document.getElementById("caja");//div
+	var formulario = document.getElementById("formulario");
 	var contenedor = document.getElementById("contenedor");
-
-	span.addEventListener("click",function(e){
+	
+	entrar.addEventListener("click",function(e){
 		e.preventDefault();
 		mostrarFormulario();
 	});
@@ -18,19 +18,18 @@ window.addEventListener("load",function(){
 	});
 
 	function mostrarFormulario(){
-		box.style.display = "inline-block";
-		span.style.display = "none";
-		form.style.display = "inline-block";
+		caja.style.display = "inline-block";
+		entrar.style.display = "none";
+		formulario.style.display = "inline-block";
 	}
 	function mostrarLista(){
-		box.style.display = "none";
-		span.style.display = "inline-block";
+		caja.style.display = "none";
+		entrar.style.display = "inline-block";
 		var lista = document.createElement("div");
-		var nodo = document.createTextNode(texto.value);
 		lista.classList.add("textBold");
-		lista.appendChild(nodo);
+		lista.appendChild();
 		lista.classList.add("lista");
-		contenedor.insertBefore(lista,span.previousSibling);
+		contenedor.insertBefore(lista,entrar.previousSibling);
 		lista.style.display = "inline-block";
 		lista.style.cssFloat = "left";
 
@@ -41,4 +40,5 @@ window.addEventListener("load",function(){
 		lista.appendChild(nuevaTarjeta);
 		nuevaTarjeta.classList.add("tarjeta");
 	}
+	
 });

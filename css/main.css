@@ -1,58 +1,45 @@
-body{
-	background-color: azure;
-	font-family: cursive;
-	font-size: 20px;
+body {
 	margin: 0px;
-}
-
-h1{
-	color: white;
-}
-
-#cabezera{
-	
-}
-
-#contenedor {
-	background-image: url("../img/fondo1.png");
-	background-size: cover;
-	width: 100%;
-	height: 600px;
-	background-repeat: no-repeat;
-}
-
-#header {
-	background-color: blueviolet;
-	width: 80%;
-	height: 300px;
-}
-
-#tablero {
-	background-color: #0079BF;
-	padding: 10px;
-	border-radius: 7px;
-	color: white;
-	font-size: 15px;
-	display: block;
-	width: 20%;
-	cursor: pointer;
+	background-color: #89609E;
+	font-size: 14px;
 	font-family: helvetica;
+}
+#cabezera {
+	background-color: #755287;
+	height: 30px;
+	padding: 10px;
+	background-image: url(https://d78fikflryjgj.cloudfront.net/images/50b4ebc64391dc394a38e73aed57f0e2/header-logo.png);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+#span {
+	background-color: #755287;
+	padding: 10px;
+	border-radius: 5px;
+	color: white;
+	display: block;
+	width: 15%;
+	cursor: pointer;
 	margin: 1%;
 }
 
-#tablero:hover {
-	background-color: #006BA9;
+#span:hover {
+	background-color: #60436F;
 }
 
 #boton {
 	margin-top: 10px;
-	display: none;
-	background-color: #5DB449;
-	color: whitesmoke;
-	font-family: sans-serif bold;
-	border-radius: 5px;
+	background-color: #5EB54A;
+	border-style: none;
+	border-radius: 3px;
+	color: white;
+	padding: 8px;
+	box-shadow: 0 1px 0 #3F6F21;
+	font-weight: bold;
+	font-size: 14px;
+	font-family: helvetica;	
 }
-
 #texto {
 	background-color: rgb(227,228,231);
 	padding: 8px 57px 8px 8px;
@@ -65,42 +52,34 @@ h1{
 	font-family: helvetica;
 
 }
-
-#lista {
-	background-color: rgb(227,230,231);
-	padding: 10px;
-	border-style: none;
-	border-color: #aaa;
-    box-shadow: inset 0 1px 8px rgba(0,0,0,.18); 
-	border-radius: 5px;
-	font-size: 15px;
-	width: 100%;
-	cursor: pointer;
-	font-family: helvetica;
-	display: none;
-}
-
-#caja {
+#box {
 	background-color: #E2E4E6;
-	padding: 5px;
-	width: 18%;
-	height: auto;
-	display: none;
+	margin: 10px;
 	border-radius: 5px;
+	padding: 5px;
+	width: 237px;
+	display: none;
+}
+#lista {
+	background-color: #E2E4E6;
+	margin: 10px;
+	border-radius: 5px;
+	padding: 13px;
+	padding-right: 18px;
+	width: 237px;
+	height: 55px;
 }
 
-.tarjeta {
+#tarjeta {
 	padding-top: 20px;
 	display: block;
 	text-decoration : none;
 	color: #949494;
 	font-weight: normal;
 }
-
 .textBold {
 	font-weight: bold;
 }
-
 .areaTexto {
 	height: 30px;
 	display: block;
